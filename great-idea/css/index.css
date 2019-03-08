@@ -130,10 +130,26 @@ nav {
 .services {
 	display: flex;
 	flex-flow: row wrap; 
+	justify-content: space-between;
 }
 
+.services section {
+	width: 48%; 
+	background-color: lightgrey; 
+	border: 1px solid black;
+	padding: 20px; 
+	margin: 20px 0; 
+}
 
-
+.services section button {
+	margin-top: 15px; 
+	background: white;
+	border-radius: 5px; 
+	box-shadow: none; 
+	padding: 10px 45px; 
+	font-size: 12px; 
+	border: 1px solid black; 
+}
 
 
 
