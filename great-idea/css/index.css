@@ -151,10 +151,32 @@ nav {
 	border: 1px solid black; 
 }
 
+#facts section{
+	width: 48%; 
+}
 
+
+#facts {
+	display: flex;
+	justify-content: space-between;
+	/* width:;  */
+	padding: 20px 0;
+
+}
 
 .copy {
 	padding: 20px 0; 
 	text-align: center;
 	margin-bottom: 100px;
+}
+
+
+#facts section ul {
+	margin: 20px 0; 
+	list-style-type: square;
+	list-style-position: inside;
+}
+
+#facts section ul li {
+	padding: 10px 0; 
 }
